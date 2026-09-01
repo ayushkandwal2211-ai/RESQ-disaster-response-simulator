@@ -97,6 +97,16 @@ File Persistence (map.txt, victims.csv, log.txt)
 - Testing with three disaster scenarios: earthquake, flood, fire
 - Final documentation and live demonstration
 
+## Deliverables
+
+- Fully working, menu-driven RESQ simulator (C + C++, GCC-compiled)
+- Modular, reusable source code: linked list, queue, priority queue (min-heap), stack, graph, BFS, Dijkstra, sorting and searching, plus the C++ class hierarchy
+- Three ready-to-run disaster scenarios — earthquake, flood, fire — with sample map and victim data files
+- Statistics module and comparison report (priority dispatch vs. FCFS): average response time, victims rescued, resource utilization
+- Persistent log files (rescue history, operation stack dump) for post-simulation audit
+- Documentation: class diagram, system architecture diagram, algorithm complexity table, user manual, README
+- Final presentation and live demonstration of a complete rescue cycle
+
 ## Assumptions
 
 - Disaster map is a static weighted graph supplied as input; road changes occur only through simulated events
